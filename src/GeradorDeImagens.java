@@ -2,7 +2,6 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -31,7 +30,7 @@ public class GeradorDeImagens {
 
         //escrever a nova imagem em um arquivo
         outPutName = outPutName.replaceFirst(" ","");
-        File directory = new File("Saida");
+        File directory = new File("Imagens");
         if (!directory.exists()) {
             directory.mkdirs(); // creates the directory and any necessary but nonexistent parent directories.
         }
