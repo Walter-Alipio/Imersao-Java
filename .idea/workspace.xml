@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7591771-cc8a-442f-aeaf-de66feb4cb91" name="Changes" comment="Add: class to get image from filestream and save it on Imagens dir.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/eclipsesource_jaxrs_provider_gson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClienteHTTP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Conteudo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExtratoDeConteudoDaNasa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExtratorDeConteudo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExtratorDeConteudoLinguagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExtratorDeConteudoTMDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Filmes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Linguagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/NasaImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d7591771-cc8a-442f-aeaf-de66feb4cb91" name="Changes" comment="Add: code examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura-Stickers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Alura-Stickers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeradorDeImagens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeradorDeImagens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "/home/walter/Java/Alura-Imersao",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/walter/Java/Alura-Imersao&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Model" />
@@ -100,7 +84,63 @@
       <option name="project" value="LOCAL" />
       <updated>1680090341987</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add: removing ApiKey from git">
+      <created>1680384678602</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680384678602</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refactoing: making class more generic">
+      <created>1680384728132</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680384728132</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add: model for film">
+      <created>1680384755229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680384755229</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add: model for Linguagem">
+      <created>1680384772976</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680384772976</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add: model for Nasa Image">
+      <created>1680384785932</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680384785932</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refactoring: extracting http cliente connection">
+      <created>1680384822781</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680384822781</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add: content extractors">
+      <created>1680384860593</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680384860593</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add: code examples">
+      <created>1680384904952</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680384904952</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +157,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project" />
     <MESSAGE value="Add: class to get image from filestream and save it on Imagens dir." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: class to get image from filestream and save it on Imagens dir." />
+    <MESSAGE value="Add: removing ApiKey from git" />
+    <MESSAGE value="Refactoing: making class more generic" />
+    <MESSAGE value="Add: model for film" />
+    <MESSAGE value="Add: model for Linguagem" />
+    <MESSAGE value="Add: model for Nasa Image" />
+    <MESSAGE value="Refactoring: extracting http cliente connection" />
+    <MESSAGE value="Add: content extractors" />
+    <MESSAGE value="Add: code examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: code examples" />
   </component>
 </project>
