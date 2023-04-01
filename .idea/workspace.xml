@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7591771-cc8a-442f-aeaf-de66feb4cb91" name="Changes" comment="Add: code examples">
+    <list default="true" id="d7591771-cc8a-442f-aeaf-de66feb4cb91" name="Changes" comment="Config">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680384904952</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Config">
+      <created>1680389751432</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680389751432</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +173,7 @@
     <MESSAGE value="Refactoring: extracting http cliente connection" />
     <MESSAGE value="Add: content extractors" />
     <MESSAGE value="Add: code examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: code examples" />
+    <MESSAGE value="Config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Config" />
   </component>
 </project>
